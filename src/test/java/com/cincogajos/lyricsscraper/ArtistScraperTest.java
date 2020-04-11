@@ -24,9 +24,6 @@ public class ArtistScraperTest
     @Test
     public void shouldAnswerWithTrue() throws IOException, InterruptedException {
         List<String> artistsUrl = ImmutableList.of(
-                "https://www.azlyrics.com/a/anderson-paak.html",
-                "https://www.azlyrics.com/b/bjthechicagokid.html",
-                "https://www.azlyrics.com/s/saba.html",
                 "https://www.azlyrics.com/d/domogenesis.html",
                 "https://www.azlyrics.com/g/goldlink.html",
                 "https://www.azlyrics.com/j/jid.html",
