@@ -56,7 +56,7 @@ public class ArtistScraper {
                     LOGGER.error("Error while fetching song {}", songUrl, e);
                 }
             }
-            Thread.sleep(5000);
+            Thread.sleep(10000);
         }
         final Album album = new Album(currentAlbumTitle, currentSongList);
         artist.addAlbum(album);
