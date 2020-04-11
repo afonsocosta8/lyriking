@@ -26,10 +26,17 @@ public class ArtistScraperTest
         List<String> artistsUrl = ImmutableList.of(
                 "https://www.azlyrics.com/a/anderson-paak.html",
                 "https://www.azlyrics.com/b/bjthechicagokid.html",
-                "https://www.azlyrics.com/s/saba.html"
+                "https://www.azlyrics.com/s/saba.html",
+                "https://www.azlyrics.com/d/domogenesis.html",
+                "https://www.azlyrics.com/g/goldlink.html",
+                "https://www.azlyrics.com/j/jid.html",
+                "https://www.azlyrics.com/k/kotathefriend.html",
+                "https://www.azlyrics.com/n/nipseyhussle.html",
+                "https://www.azlyrics.com/s/smino.html",
+                "https://www.azlyrics.com/t/tobilou.html"
         );
         for (String url : artistsUrl)
-            ArtistScraper.getArtist(url);
+            ArtistScraper.getArtist(url, 10);
 
 
     }
