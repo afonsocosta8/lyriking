@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <jsoup.version>1.11.3</jsoup.version>
+    <jsoup.version>1.14.2</jsoup.version>
     <slf4j.version>1.6.1</slf4j.version>
     <commons-lang3.version>3.10</commons-lang3.version>
   </properties>
